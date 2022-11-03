@@ -16,8 +16,8 @@ Notes
 The elements must be exactly identical for there to be a jackpot.*/
 
 const testJackpot = (array) => {
-    for (let i = 0; i < array.length-1; i++) {
-        if (array[i] !== array[i+1]) {
+    for (let i = 0; i < array.length - 1; i++) {
+        if (array[i] !== array[i + 1]) {
             return false;
         }
     }

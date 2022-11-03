@@ -17,7 +17,7 @@ const sumArray = (array) => {
     let sum = 0;
     function add(e) {
         if (typeof e === 'number') {
-        sum += e;
+            sum += e;
         }
     }
     array.forEach(add);
